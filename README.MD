@@ -1,4 +1,5 @@
 Ejecucion:
+
 Ejecutar el programa desde la terminal con:
 
    node src/main.js input/Correcto1.txt
