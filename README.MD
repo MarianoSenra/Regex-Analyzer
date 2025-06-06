@@ -1,5 +1,5 @@
 # Regex Analyzer
-Ejecutar el programa en la terminal con:
+Ejecutar el programa Main.js en la terminal con:
 
    node src/main.js input/Correcto1.txt
 
