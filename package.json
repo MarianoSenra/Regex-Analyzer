@@ -1,0 +1,11 @@
+{
+  "name": "regex-analyzer",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node src/main.js input/correcto1.txt",
+    "test": "node src/main.js"
+  },
+  "dependencies": {
+    "antlr4": "^4.13.1"
+  }
+}

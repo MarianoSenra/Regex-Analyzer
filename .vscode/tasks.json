@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "generar-parser",
+            "type": "shell",
+            "command": "java -jar ${workspaceFolder}/lib/antlr-4.13.1-complete.jar -Dlanguage=JavaScript -visitor -o src/generated grammars/Regex.g4",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

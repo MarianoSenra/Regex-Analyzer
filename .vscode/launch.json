@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Run Analyzer",
+            "program": "${workspaceFolder}/src/main.js",
+            "args": [
+                "${workspaceFolder}/input/correcto1.txt"
+            ],
+            "preLaunchTask": "generar-parser",
+            "console": "integratedTerminal"
+        }
+    ]
+}

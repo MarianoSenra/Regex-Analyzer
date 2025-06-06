@@ -1,0 +1,34 @@
+{
+    "antlr4.jar": "${workspaceFolder}/lib/antlr-4.13.1-complete.jar",
+    "antlr4.generation": {
+        "mode": "external",
+        "language": "JavaScript",
+        "outputDir": "${workspaceFolder}/src/generated",
+        "package": "",
+        "listeners": true,
+        "visitors": true
+    },
+    "antlr4.importDir": "${workspaceFolder}/grammars",
+    "antlr4.generation.options": "-visitor -no-listener",
+    "antlr4.codeGeneration.enable": true,
+    "antlr4.codeGeneration.autoBuild": true,
+    "files.associations": {
+        "*.g4": "antlr"
+    },
+    "search.exclude": {
+        "**/src/generated": true
+    },
+    "explorer.fileNesting.patterns": {
+        "Regex.g4": [
+            "RegexLexer.js",
+            "RegexParser.js",
+            "RegexVisitor.js"
+        ]
+    },
+    "javascript.validate.enable": true,
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "antlr4.generation.useCustomCwd": true,
+    "antlr4.generation.customCwd": "${workspaceFolder}",
+    "antlr4.debug": true
+}
