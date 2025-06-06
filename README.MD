@@ -1,4 +1,8 @@
-Ejecucion:
+Clonar:
+
+git clone https://github.com/MarianoSenra/Regex-Analyzer.git
+
+Ejecutar:
 
 Ejecutar el programa desde la terminal con:
 
